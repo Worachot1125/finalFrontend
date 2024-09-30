@@ -1,0 +1,166 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.createTransaction {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.createTransaction h2 {
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.createTransaction input,
+.createTransaction select,
+.createTransaction textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.createTransaction button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.createTransaction button:hover {
+  background-color: #45a049;
+}
+
+.transactionList {
+  margin-top: 20px;
+}
+
+.transactionList h2 {
+  color: #333;
+}
+
+.transactionItem {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transactionItem h3 {
+  margin: 0 0 10px;
+  color: #1ac32b;
+}
+
+.transactionItem p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* ปุ่มแก้ไข */
+.editButton {
+  background-color: #007bff; /* สีฟ้า */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* เพิ่ม transition สำหรับ hover */
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3); /* เงา */
+}
+
+.editButton:hover {
+  background-color: #0056b3; /* สีฟ้าที่เข้มขึ้นเมื่อ hover */
+  transform: scale(1.05); /* ขยายเมื่อ hover */
+}
+
+/* ปุ่มลบ */
+.deleteButton {
+  background-color: #dc3545; /* สีแดง */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* เพิ่ม transition สำหรับ hover */
+  box-shadow: 0 4px 6px rgba(220, 53, 69, 0.3); /* เงา */
+}
+
+.deleteButton:hover {
+  background-color: #c82333; /* สีแดงที่เข้มขึ้นเมื่อ hover */
+  transform: scale(1.05); /* ขยายเมื่อ hover */
+}
+
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* src/app/page.module.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* ทำให้เต็มความสูงของหน้าจอ */
+  background-color: #f0f4f8; /* พื้นหลังสีอ่อน */
+  padding: 20px;
+  font-family: Arial, sans-serif; /* ฟอนต์ที่ใช้ */
+}
+
+
+/* ปรับปุ่ม MUI */
+.MuiButton-root {
+  background-color: #007bff; /* สีพื้นหลังปุ่ม */
+  color: white; /* สีตัวอักษร */
+  padding: 10px 20px; /* ขนาดปุ่ม */
+  border-radius: 4px; /* มุมปุ่มมน */
+}
+
+.MuiButton-root:hover {
+  background-color: #0056b3; /* สีพื้นหลังเมื่อโฮเวอร์ */
+}
+/* ใน page.module.css หรือ creditList.module.css */
+.logoutButton {
+  background-color: #dc3545; /* สีแดง */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; /* เพิ่มระยะห่างจากรายการบัญชี */
+}
+
+.logoutButton:hover {
+  background-color: #c82333; /* สีแดงเข้มเมื่อ hover */
+}
+
+/* src/app/signup.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e0f7fa; /* สีพื้นหลังฟ้าอ่อน */
+}
